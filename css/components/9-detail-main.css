@@ -1,0 +1,81 @@
+.detail {
+    background-color: #F0F4F9;
+    min-height: 500px;
+    width: 100%;
+}
+.detail .container h6 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FDC800;
+    margin-bottom: 1rem;
+    padding-top: 5rem;
+}
+.detail .container h1 {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #002147;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 670px;
+}
+.detail  .container .img-course{
+    width: 100%;
+    padding-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+}
+    .detail  .container .img-course .img-coures{
+        width: 750px;
+        
+    }
+    .detail  .container .img-course img {
+        height: 469px;
+    }
+.Description .container h2 {
+    color: #002147;
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.Description .container p {
+    color: #212529;
+    font-size: 16px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 770px;
+    width: 100%;
+}
+.what-learn .container h2 {
+    color: #002147;
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.what-learn .container li {
+    color: #212529;
+    font-size: 16px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 770px;
+    width: 100%;
+}
+span {
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+    
+}
+.fa-check {
+    color: green;
+    margin-right: 1rem;
+}

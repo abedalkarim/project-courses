@@ -1,0 +1,77 @@
+.subscribe {
+    padding-top: 3rem;
+}
+.subscribe .container {
+    min-height: 630px;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.subscribe .container .text-subscribe h6{
+    font-size: 16px;
+    font-weight: 700;
+    color: #FDC800;
+}
+.subscribe .container .text-subscribe h2{
+    font-size: 48px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: #002147;
+    margin-bottom: 2rem;
+}
+
+.subscribe .container .box-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    width: 100%;
+    height: 56px;
+    border: 1px solid #BDBDBD;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+}
+
+.subscribe .container input {
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: .5rem;
+    border: none;
+    outline: none;
+}
+.subscribe .container button {
+    font-size: 16px;
+    font-weight: 500;
+    color: #002147;
+    background-color: #FDC800;
+    padding: .8rem 1.2rem;
+    margin-right: 4px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+@media (max-width:1070px){ 
+    .subscribe .container {
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .subscribe .container button {
+        padding: .7rem .8rem;
+        font-size: 12px;
+    }
+    .subscribe .container .text-subscribe h2{
+        font-size: 32px;
+    }
+    .subscribe .container input{
+        font-size: 12px;
+    }
+    .subscribe .container .box-input{
+        width: 400px;
+        
+    }
+ }

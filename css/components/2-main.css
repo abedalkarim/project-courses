@@ -1,0 +1,109 @@
+main {
+    background-color: #F0F4F9;
+    min-height: 650px;
+    width: 100%;
+}
+
+main .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-top: 4rem;
+    flex-wrap: wrap;
+}
+
+main .container .about-Courses h3 {
+    color: #002147;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+main .container .about-Courses p {
+    width: 650px;
+    color: #002147;
+    font-size: 60px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 2rem;
+}
+@media (max-width: 576px){
+ main .container .about-Courses p {
+    width: 420px;
+    font-size: 33px;
+}
+}
+@media (min-width: 576px) and (max-width: 768px) { 
+    main .container .about-Courses p {
+        width: 600px;
+        font-size: 40px;
+    }
+ }
+main .container .about-link .quote-link {
+    background-color: #FDC800;
+    margin-right: 1rem;
+}
+main .container .about-link a {
+    background-color: #fff;
+    padding: .8rem 2rem;
+    color: #002147;
+    border-radius: 5px;
+    border: 1px solid #BDBDBD ;
+}
+main .container .about-pic img{
+    width: 400px;
+    height: 400px;
+    margin-bottom: 6rem;
+}
+
+.ads-box {
+    width: 80%;
+    min-height: 150px;
+    margin: auto;
+    background-color: #002147;
+    position: relative;
+    top: -75px;
+    left: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.timing {
+    color: #fff;
+    width: 380px;
+    height: 100px;
+    display: flex;
+    gap: .5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.timing h4 {
+    font-size: 60px;
+    font-weight: 700;
+}
+.timing span {
+    font-size: 14px;
+    font-weight: 400;
+}
+.timing h6 {
+    height: 50px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.ads-box h2 {
+    width: 400px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+.ads-box .ads-pic1 {
+  width:150px ;
+  height: 120px;
+}
+.ads-box h2 span{
+    color: #FDC800;
+}

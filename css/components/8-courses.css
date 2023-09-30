@@ -1,0 +1,47 @@
+.courses {
+    background-color: #F0F4F9;
+    min-height: 220px;
+    padding-bottom: 2rem;
+}
+
+.courses .container h6{
+    font-size: 16px;
+   font-weight: bold;
+   color: #FDC800;
+   padding-top: 4rem;
+}
+.courses .container h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #002147;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.courses .container form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.courses .container form label {
+    color: #002147;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+.courses .container form select {
+    font-size: 16px;
+    font-weight: 300;
+    padding: 5px 5px;
+    border-radius: 5px;
+    width: 200px;
+
+}
+
+.courses .container form .slec-coures{
+    display: flex;
+    flex-direction: column;
+}
+
+

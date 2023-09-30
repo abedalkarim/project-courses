@@ -1,0 +1,79 @@
+.cards {
+    width: 100%;
+    margin: 0 auto;
+
+}
+.cards .container {
+    min-height: 1200px;
+}
+.cards .container h2{
+    text-align: center;
+    font-size: 48px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: #002147;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.cards .container .cards-coirses {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10rem;
+}
+@media (max-width:576px) {
+    .cards .container .cards-coirses{
+        grid-template-columns: repeat(1 , 1fr);
+    }
+}
+@media (min-width:577px) and (max-width:992px){
+    .cards .container .cards-coirses{
+        grid-template-columns: repeat(2 , 1fr);
+    }
+}
+.cards .container .cards-coirses .card {
+    width: 371px;
+    height: 330px;
+    border: 1px solid #BDBDBD;
+    border-radius: 8px;
+    position: relative;
+    transition: all 0.3s;
+}
+.cards .container .cards-coirses .card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.cards .container .cards-coirses .card .pic1{
+    width: 100%;
+    max-width: 100%;
+    height: 200px;
+}
+.cards .container .cards-coirses .card .min-pic1{
+    width: 80px;
+    height: 80px;
+    border: 8px solid #F0F4F9;
+    position: absolute;
+    left: 1rem;
+    bottom: 7rem;
+    
+}
+.cards .container .cards-coirses .card h4 {
+    color: #002147;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: 14.5rem;
+    left: .8rem;
+}
+
+.cards .container .cards-coirses .card h6 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #757575;
+    position: absolute;
+    bottom: 1rem;
+    left: .8rem;
+}

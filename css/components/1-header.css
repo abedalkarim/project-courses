@@ -1,0 +1,183 @@
+/* start head  */
+header .head {
+    background-color: #FDC800;
+    height: 50px;
+    width: 100%;
+}
+
+header .head .container {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header .head .container .contect {
+    display: flex;
+    gap: 3rem;
+    color: #212529;
+    flex-wrap: wrap;
+}
+
+.head .container .contect a {
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #212529;
+
+}
+.head .container .contect a:hover{
+    color: #ffff
+}
+
+.social a {
+    margin: 0 .5rem;
+    color: #212529;
+}
+.social a:hover{
+    color: #ffff
+}
+@media (max-width: 768px) {
+    header .head {
+        display: none;
+    }
+
+    header .brand .container .fa-bars {
+        display: block;
+    }
+
+    .brand .container nav {
+        display: none;
+    }
+
+    .brand .container .fa-bars:hover+nav {
+        display: grid;
+        position: absolute;
+        top: 12vh;
+        right: 1rem;
+        background-color: #002147;
+        width: 25%;
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+    .brand .container form {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width:992px) {
+    header .brand .container .fa-bars {
+        display: block;
+    }
+
+    .brand .container nav {
+        display: none;
+    }
+
+    .brand .container .fa-bars:hover+nav {
+        display: grid;
+        position: absolute;
+        top: 17vh;
+        right: 4rem;
+        background-color: #002147;
+        width: 20%;
+        padding: 2rem 1rem;
+        text-align: center;
+
+    }
+}
+
+/* end head  */
+header .brand {
+    background-color: #F0F4F9;
+    padding-top: 1rem;
+}
+
+header .brand .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header .brand .container .logo {
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.brand .container .logo h3 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #002147;
+    text-transform: uppercase;
+}
+
+@media (max-width:576px) {
+    .brand .container .logo h3{
+        font-size: 16px;
+    }
+    .brand .container .logo img {
+        width: 55px;
+    }
+}
+
+.brand .container .fa-bars {
+    display: none;
+    font-size: 32px;
+    cursor: pointer;
+    position: absolute;
+    right: 2rem;
+}
+
+.brand .container .fa-bars:hover+nav a {
+    color: #fff;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+header nav a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #002147;
+    padding: .4rem .8rem;
+    border-radius: 15px;
+}
+
+header nav a.active {
+    background-color: #FDC800;
+}
+
+header nav a:hover {
+    background-color: #FDC800;
+}
+
+header .click-sign {
+    font-size: 16px;
+    font-weight: 400;
+    color: #002147;
+    background-color: #FDC800;
+    border-radius: 5px;
+    padding: .7rem 1.5rem;
+    border: none;
+    margin: 0 .5rem;
+    cursor: pointer;
+}
+
+header .click-serch {
+    color: #212529;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 5px;
+    padding: 10px 12px;
+    border: 1px solid #BDBDBD;
+    cursor: pointer;
+}

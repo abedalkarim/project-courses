@@ -1,0 +1,10 @@
+@import '../css/global.css';
+@import './components/1-header.css';
+@import './components/2-main.css';
+@import './components/3-cards.css';
+@import './components/4-Feedback.css';
+@import './components/5-Statistic-number.css';
+@import './components/6-subscribe.css';
+@import './components/7-footer.css';
+@import './components/8-courses.css';
+@import './components/9-detail-main.css';
